@@ -1,5 +1,7 @@
 package SingleResponsibility;
-
+/*
+This is not a good example of single responsibility principle
+ */
 public class CircleBadExemple {
 
     private int radius; // rayon
@@ -15,7 +17,7 @@ public class CircleBadExemple {
         radius = r;
     }
 
-    public void draw() // display circle fake method, this is not a good implementation of single responsibility
+    public void draw() // display circle fake method
     {
         System.out.println("the circle have radius of "+radius+ "and the center is" +point);
     }
